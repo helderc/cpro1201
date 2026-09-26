@@ -1,0 +1,16 @@
+# Concert Ticket Checker
+
+A concert has these rules:
+
+- A ticket costs $45.
+- A student ticket costs $30.
+- VIP costs $90.
+- A person can enter only if they have a valid ticket.
+- Students must be 18 or younger to receive the student price.
+
+Have the program calculate the total price for a person and 
+create Boolean expressions answering questions such as:
+
+Is the person eligible for the student price?
+Is the ticket valid?
+Can the person enter?
