@@ -74,17 +74,47 @@ print(str(n1) + str(n2))
 
 #%%
 
-s = s1 + s2
+#s = s1 + s2
 s = "Python is GREAT"
 print(s, len(s))
 
 print(s[1])
 print(s[len(s)-1], len(s))
 
+print(s[3:8])
 
+print(s[:5]) # 0:5-1 -> 0:4
+print(s[0:5])
 
+s2 = s[2:]
+s3 = s[2:8]
+print(s2, type(s2))
+print(s3)
 
+s4 = s2 + s3
+print(s4)
 
+s5 = s
+print(id(s))
+print(id(s5))
+
+print(s5 is s)
+
+#%%
+
+s1 = "s1"
+
+print(s[8:2])
+
+print(s)
+print(s[-5:-2])
+
+# string[N1 : N2 : N3]
+# N1: first character
+# N2: 
+print('str:', s[:10:2])
+
+print(s1, 10, s2, 91239)
 
 
 
